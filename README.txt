@@ -1,3 +1,5 @@
+website link: information-lp.netlify.app
+
 PROJEKT REINFOLGE
 Dieses ist die Nachricht landing Seite.
 Zuerst enhalt die Seite 2 Abschnitt, die zusammenklappbar sind. Daher war das die erste Punkt des Design und Animation auf css und Javascript. Nach die body gemacht ist, hat jeder andere element hinein diese Grundsatlich div gestellt. Aus diesem grund sind die content innerhalb des hauptdiv vestellbar wenn die hamburger icon geklickt wird.
