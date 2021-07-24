@@ -1,0 +1,117 @@
+/*
+ * Author: http://stuffandnonsense.co.uk/blog/about/hardboiled_css3_media_queries/
+ */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 200px) 
+{
+/* Styles */
+    html {
+        font-size: 12px;
+    }
+    menu{
+        width: 80%;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 760px) 
+{
+/* Styles */
+    html {
+        font-size: 14px;
+    }
+    .menu{
+        width: 50%;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+    html {
+        font-size: 16px;
+    }
+    .menu{
+        width: 35%;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+    html {
+        font-size: 18px;
+    }
+}
+
+/*----------------------------------------------------------*/
+
+@media screen
+and (max-width:800px) {
+    .body{
+        overflow-x: hidden;
+    }
+    .nav-bar{
+        background-color: #1d1a1c;
+    }
+    .hamburger-menu{
+        display: block;
+        z-index: 2;
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .menu-icons-div{
+        position: absolute;
+        top: 6rem;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        height: 20rem;
+        background-color: #1d1a1c;
+        width: 100%;
+        padding: 2rem 5rem 2rem 5rem;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .menu{
+        display: flex;
+        height: 12rem;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 30%;
+    }
+    .social-media-icons{
+        width: 30%;
+    }
+    .nav-active{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes menuListFade{
+    from{
+        opacity: 0;
+        transform: translateX(10%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+.toggle .burger-line1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .burger-line2{
+    opacity: 0;
+}
+.toggle .burger-line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}
