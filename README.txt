@@ -6,6 +6,6 @@ Nach die information oben sind the grundsatlich CSS entwurft und die HTML auch. 
 
 Todo List:
 - Machen die ScrollenDiv auf Abschnitt 1 kontinuierlich zu scrollen.
-- Hinzugen ein Recht und Links ScrollenIcon auf Abschnitt 2 und programieren es in JS.
-- Hinzugen ein Recht und Links ScrollenIcon auf Abschnitt 3 und programieren es in JS.
-- Hinzugen ein Recht und Links ScrollenIcon auf Abschnitt 4 und programieren es in JS.
+- Hinzufugen ein Recht und Links ScrollenIcon auf Abschnitt 2 und programieren es in JS.
+- Hinzufugen ein Recht und Links ScrollenIcon auf Abschnitt 3 und programieren es in JS.
+- Hinzufugen ein Recht und Links ScrollenIcon auf Abschnitt 4 und programieren es in JS.
